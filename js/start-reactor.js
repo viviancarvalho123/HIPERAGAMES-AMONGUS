@@ -213,9 +213,9 @@ startReactor = {
         } else {
 
             startReactor.interface.endGame("fail")
-            document.getElementById("title").textContent = "Você é o impostor"
+            document.getElementById("title").textContent = "TENTAR NOVAMENTE"
             setTimeout(() => {
-                document.getElementById("title").textContent = "START REACTOR"
+                document.getElementById("title").textContent = "HIPERAGAMES"
                 startReactor.start()
             }, 1400)
             return
