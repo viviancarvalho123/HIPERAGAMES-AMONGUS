@@ -40,6 +40,22 @@
     animation: rotate 90s infinite;
 }
 
+.player3{
+    background-color: #84093200;
+    background-image: url("../favicon.ico");
+    background-size: contain;
+    border: 10px solid #000000;
+    border-bottom: none;
+    border-radius: 60px 80px 0 0;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    top: 150px;
+    left: 15%;
+    z-index: 1;
+    animation: rotate 45s infinite;
+}
+
 @keyframes move {
     0% {
         right: 100%;
